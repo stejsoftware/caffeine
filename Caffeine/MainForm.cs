@@ -16,8 +16,6 @@ namespace Caffeine
             InitializeComponent();
 
             Icon = Caffeine.Properties.Resources.BeanIcon;
-            niBean.Icon = Caffeine.Properties.Resources.BeanIcon;
-            niBean.ShowBalloonTip(100, "Caffeine","Don't Go to sleep!", ToolTipIcon.None);
         }
     }
 }
