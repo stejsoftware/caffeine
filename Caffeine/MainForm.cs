@@ -17,5 +17,10 @@ namespace Caffeine
 
             Icon = Caffeine.Properties.Resources.BeanIcon;
         }
+
+        private void pbBean_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Caffeine.Properties.Resources.SITE_URL);
+        }
     }
 }

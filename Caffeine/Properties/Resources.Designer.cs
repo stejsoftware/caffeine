@@ -89,5 +89,14 @@ namespace Caffeine.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://github.com/stejsoftware/caffeine.
+        /// </summary>
+        internal static string SITE_URL {
+            get {
+                return ResourceManager.GetString("SITE_URL", resourceCulture);
+            }
+        }
     }
 }
